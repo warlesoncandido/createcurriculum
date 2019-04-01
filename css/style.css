@@ -1,0 +1,14 @@
+#cabecalho{
+
+        width: 100%;
+        
+}
+#Titulo{
+
+    text-align: center;
+    color: #3bb4c1;
+    text-shadow: 1px 1px 1px #111;
+    font-size: 50px;
+    text-decoration: underline;
+
+}

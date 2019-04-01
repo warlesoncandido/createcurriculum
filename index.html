@@ -3,13 +3,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>WarlesonCandido</title>
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="container nav">
+            <img src="img/cabecalho.jpg" alt="" id="cabecalho" class="img-responsive">
 
-    <h1>Meu Website</h1>
-    <button id="imprimir">Imprimir</button>
-    
+        </div>
+        <div class="container">
+
+            <h1 id="Titulo">Curriculo Vitae</h1>
+
+        </div>
+        <div class="container">
+            <form class="formulario">
+                <div class="form-group">
+                    <h3>Dados Pessoal</h3>
+                     <input type="text" name="nome" minlength="5" id="nome" class="form-control" placeholder="Digite seu Nome:"><br>
+                     <input type="text" name="email" id="email" class="form-control" placeholder="Digite seu E-mail:"><br>
+                     <input type="phone" name="telefone"  id="telefone" placeholder="Telefone">
+                     <input type="phone" name="celular" id="celular" placeholder="Celular"><br><br>
+                     <input type="text" name="rua" id="rua" class="form-control" placeholder="Digite sua Rua"><br>
+                     <input type="text" name="bairro" id="bairro"  placeholder="Digite seu Bairro"> <input type="text" name="cidade" id="cidade"  placeholder="Digite sua cidade"> <br><br>
+                     <input type="text" name="uf" id="uf"  placeholder="Ex:Minas Gerais">
+                     <input type="number" name="numero" id="numero" placeholder="Ex:244" maxlength="5"><br><br>
+                      <input type="number" id="cep" placeholder="CEP" onblur="buscandoCep()"> <br><br>
+                     <input type="checkbox" name="casado" id="checkCasado">Casado
+                     <input type="checkbox" name="solteiro" id="checkSolteiro">Solteiro<br><br>
+
+                     <button id="imprimir">Imprimir</button>
+                    
+                 </div>
+
+
+
+
+
+
+
+            </form>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
 
     <script src="js/scripit.js"></script>
 </body>
